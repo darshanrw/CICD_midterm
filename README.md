@@ -1,9 +1,7 @@
-# CICD_midterm
-
 # Flask Application
 
 ## Structure
-
+```bash
 ├── app.py                   # Flask app that takes user input and displays a welcome message.
 ├── test_app                 # Unit tests for the Flask application.
 ├── requirements.txt         # Python dependencies
@@ -14,10 +12,14 @@
 │       └── ci.yml           # GitHub Actions CI pipeline for building and testing.
 └── README.md                # Project overview and instructions
 
+```
 ## How to Build and Run
 
 ### Local Development
 1. Clone the repository.
+```bash
+https://github.com/darshanrw/CICD_midterm.git
+```
 2. Install the dependencies:
 ```bash
    pip install -r requirements.txt
